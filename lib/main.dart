@@ -16,7 +16,7 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  // Запрос разрешения на отправку push-уведомлений
+  // Запрос разрешения на отправку push-уведомлений!!!
   NotificationSettings settings = await FirebaseMessaging.instance.requestPermission(
     alert: true,
     badge: true,
